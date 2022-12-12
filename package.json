@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.2.4",
+    "knex": "^2.3.0",
+    "oauth20-provider": "^0.6.0",
+    "pg": "^8.8.0"
+  }
+}

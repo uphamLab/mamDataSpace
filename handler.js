@@ -7,7 +7,8 @@ const findData = (request, response) => {
 // return
   let params = validateParamsFindStartsWithData(request)
   try {
-    db.findData(params)
+    res =  db.findData(params,response)
+    console.log("RES:", res)
   } catch (error) {
     response.json({ status:500, info: 'Internal error. If you are the service owner please check the logs' })
   }
